@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Container {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    overflow-y: scroll;
+    border-radius: 8px;
+}
+
+#Container p {
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+#usr, #msg {
+    position: absolute;
+    left: calc(50% - 250px);
+}
+
+#usr {
+    top: 330px;
+}
+#msg {
+    top: 360px;
+}
+
+#send {
+    position: absolute;
+    top: 360px;
+    left: calc(50% - 60px);
+    width: 60px;
+}

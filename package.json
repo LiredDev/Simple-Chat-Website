@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "simple-chat-app",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
